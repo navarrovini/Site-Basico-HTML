@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="SpaceX.html">
+                <img src="logo.png" alt="">|
+            </a>
+            <a href="SpaceShip.html">SpaceShip</a> |
+            <a href="Hire US.html">Hire US</a>
+        </nav>
+        <hr>
+    </header>
+
+
+
+    <section>
+        <h1>Hire Us Now</h1>
+    </section>
+    <p>Leave a message to request one of our services and we will ger back yo tou as soon as possible.</p>
+    <section>
+        <form><br>
+            <div>
+                <!--cada DIV é UMA LINHA-->
+                <label for="name">Name: </label>
+                <!--LABEL MOSTRA O NOME A VIM ANTES OU DEPOIS-->
+                <input type="text" name="name" id="name" required> -
+
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="spaceship">Spaceship: </label>
+                <select name="spaceship" id="spaceship">
+                    <!--SELECT cria uma caixa com opções para selecionar 1-->
+                    <option value="falcon_9">Falcon 9</option>
+                    <option value="falcon_heavy">Falcon Heavy</option>
+                </select> -
+                <label for="services">Service: </label>
+                <input type="search" name="service" id="service" list="services" required>
+                <!--o LIST vai conectar com o DATALIST-->
+                <datalist id="services">
+                    <!--como se fosse um AUTOCOMPLETE-->
+                    <option value="1 Nam quis nulla. Integer malesuada"></option>
+                    <option value="2 Nam quis nulla. Integer malesuada"></option>
+                    <option value="3 Nam quis nulla. Integer malesuada"></option>
+                    <option value="4 Nam quis nulla. Integer malesuada"></option>
+                </datalist>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Send Message">
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
